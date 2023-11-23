@@ -11,10 +11,10 @@ System.Console.WriteLine("Натуральное число: " + N);
 //int L = l.Length;
 int i = 1;
 
-while(i < l.Length - 1){
+while(i < l.Length){
     massiv[l.Length - i] = N%10;
     N = N/10;
-    i++; 
+    i++;
 }
 massiv[0] = N%10;
 
