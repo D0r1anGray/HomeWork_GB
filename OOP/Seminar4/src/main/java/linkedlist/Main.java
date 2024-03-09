@@ -27,9 +27,11 @@ public class Main {
 
         list.remove(2);
         System.out.println("Удалили третий элемент: " + list);
+        System.out.println("Получение 3 элемента списка: " + list.get(2));
         System.out.println("Размер списка: " + list.size()+ "\n");
- //       System.out.println(list.node(3));
-        
+        //       System.out.println(list.node(3));
+
+
         System.out.println("Первый элемент списка: " + ((HWlinkList<Integer>) list).getFirst());
         System.out.println("Последний элемент списка: " + ((HWlinkList<Integer>) list).getLast());
 
